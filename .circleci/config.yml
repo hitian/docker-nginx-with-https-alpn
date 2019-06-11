@@ -5,8 +5,6 @@ jobs:
     machine: true
     steps:
       - checkout
-      - run: |
-          docker login -u $DOCKER_USER -p $DOCKER_PASS
-
       - run: docker build -t "hitian/nginx:latest" .
+      - run: docker login -u $DOCKER_USER -p $DOCKER_PASS
       - run: docker push hitian/nginx:latest
