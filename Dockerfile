@@ -1,4 +1,4 @@
-FROM ubuntu:19.10
+FROM ubuntu:20.04
 
 RUN apt-get update -y && apt-get upgrade -y && apt-get install openssl curl gnupg2 -y
 RUN curl -o nginx_signing.key https://nginx.org/keys/nginx_signing.key && apt-key add nginx_signing.key
