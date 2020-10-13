@@ -3,7 +3,7 @@
 
 [![CircleCI](https://circleci.com/gh/hitian/docker-nginx-with-https-alpn.svg?style=svg)](https://circleci.com/gh/hitian/docker-nginx-with-https-alpn)
 
-nginx version mainline 1.19.2
+nginx version mainline 1.19.3
 
 ## USAGE
 
